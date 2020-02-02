@@ -28,6 +28,8 @@ p {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+    border: 2px solid black;
+    padding: 12px 10px;
 }
 
 a {
@@ -36,9 +38,41 @@ a {
     font-weight: 700;
     font-size: 16px;
     margin-right: 20px;
+    color: black;
 }
 
-.header .content {
+a:last-child {
+    margin-right: 0;
+}
+
+a:visited {
+    color: black;
+}
+
+.content {
     width: 50%;
-    margin-top: 40px;
+    margin-top: 20px;
+    padding: 0 12px 12px 0;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+
+/* breakpoint mobile */
+
+@media (max-width: 500px) {
+
+    .container {
+        height: 100%;
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
 }
