@@ -40,6 +40,9 @@ a {
     margin-right: 20px;
     color: black;
 }
+a .contralink {
+    margin-right: 0;
+}
 
 a:last-child {
     margin-right: 0;
