@@ -210,6 +210,13 @@ details .project-title::after {
     line-height: 24px;
 }
 
+.project-summary li a {
+    font-family: var(--font-content);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
 .project-summary li span {
     font-weight: 700;
 }
@@ -431,22 +438,8 @@ details .project-title::after {
         font-weight: 700;
     }
     
-    .project-content img {
-        width: 100%;
-        height: auto;
-        margin: 10px 0 10px 0;
-    }
-    
     /* Ending Projects */
     
-    /* Contact */
-    
-    .contact {
-        border-top: solid 1px var(--principal-content-color);
-        padding-top: 10px;
-    }
-    
-    /* Ending contacts */
 }
 
 /* Ending Mobile */
