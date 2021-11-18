@@ -161,6 +161,11 @@ details .title::after {
 
 .projects details {
     margin-bottom: var(--space-between-elements);
+    border-bottom: solid 0.5px #cbd3dd;
+}
+
+.projects details:last-child {
+    border-bottom: none;
 }
 
 details[open] .project-title::after {
@@ -193,6 +198,10 @@ summary::-webkit-details-marker {
 
 .project-content-text {
     width: 30%;
+}
+
+.project-content-text p {
+    margin-bottom: 18px;
 }
 
 .project-content-images{
@@ -237,7 +246,7 @@ summary::-webkit-details-marker {
 
 .contact {
     border-top: solid 1px var(--principal-content-color);
-    padding-top: 10px;
+    padding-top: var(--space-between-elements);
 }
 
 /* Ending contacts */
@@ -436,10 +445,6 @@ summary::-webkit-details-marker {
         font-size: 18px;
         color: var(--principal-content-color);
         line-height: 24px;
-    }
-    
-    .project-summary li span {
-        font-weight: 700;
     }
     
     /* Ending Projects */
