@@ -180,6 +180,10 @@ details .project-title::after {
     transform: translateY(-100%);
 }
 
+summary::-webkit-details-marker {
+    display: none;
+}
+
 .project-content {
     width: 100%;
     position: relative;
@@ -405,7 +409,7 @@ details .project-title::after {
         right: 10%;
         transform: translateY(-100%);
     }
-    
+
     .project-content {
         display: block;
         justify-content: unset;
